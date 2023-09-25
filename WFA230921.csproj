@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\to-do-list.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\todo.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

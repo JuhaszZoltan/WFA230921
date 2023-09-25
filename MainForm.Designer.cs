@@ -51,7 +51,7 @@
             this.btnAdd.Location = new System.Drawing.Point(36, 112);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(244, 36);
-            this.btnAdd.TabIndex = 1;
+            this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
@@ -61,8 +61,10 @@
             this.lsbTodo.ItemHeight = 25;
             this.lsbTodo.Location = new System.Drawing.Point(297, 42);
             this.lsbTodo.Name = "lsbTodo";
+            this.lsbTodo.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lsbTodo.Size = new System.Drawing.Size(281, 254);
-            this.lsbTodo.TabIndex = 2;
+            this.lsbTodo.TabIndex = 100;
+            this.lsbTodo.TabStop = false;
             // 
             // lblInfo02
             // 
@@ -89,7 +91,8 @@
             this.btnDelete.Location = new System.Drawing.Point(36, 154);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(244, 36);
-            this.btnDelete.TabIndex = 1;
+            this.btnDelete.TabIndex = 100;
+            this.btnDelete.TabStop = false;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
@@ -99,7 +102,7 @@
             this.chbImportant.Location = new System.Drawing.Point(32, 65);
             this.chbImportant.Name = "chbImportant";
             this.chbImportant.Size = new System.Drawing.Size(49, 30);
-            this.chbImportant.TabIndex = 5;
+            this.chbImportant.TabIndex = 1;
             this.chbImportant.Text = "!!!";
             this.chbImportant.UseVisualStyleBackColor = true;
             // 
@@ -116,7 +119,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtItem);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MainForm";
             this.Text = "TODO App";
             this.ResumeLayout(false);
